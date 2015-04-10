@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from wolfadmin.herokuapp.com/1.1/account/billing by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2014 02:33:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<title>Wolf - Bootstrap Admin Theme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	
+  	<link data-turbolinks-track="true" href="../../assets/application-b9abcf044a0bc3e705568d103eddd00e.css" media="all" rel="stylesheet" />
+  	<script data-turbolinks-track="true" src="../../assets/application-c19ca191fe14a22b6c3ee53ac5b340a6.js"></script>
+  	<meta content="authenticity_token" name="csrf-param" />
+<meta content="OszadhPDbPaLmettDOd3kDnS+XRVU5SVqyjBoVc8Tr8=" name="csrf-token" />
+
+  	<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body id="account">
+	
+	<div id="wrapper">
+    
+        <div id="sidebar-default" class="main-sidebar fix-scroll">
+  <div class="current-user">
+      <a href="#" class="name">
+        <img alt="1" class="avatar" src="../../assets/avatars/1-60c47167290e620ea8ef2aa01d40c05e.jpg" />
+        <span>
+          John Smith
+          <i class="fa fa-chevron-down"></i>
+        </span>
+      </a>
+      <ul class="menu">
+        <li>
+          <a href="settings.html">Account settings</a>
+        </li>
+        <li>
+          <a href="billing.html">Billing</a>
+        </li>
+        <li>
+          <a href="notifications.html">Notifications</a>
+        </li>
+        <li>
+          <a href="support.html">Help / Support</a>
+        </li>
+        <li>
+          <a href="../features/signin.html">Sign out</a>
+        </li>
+      </ul>
+  </div>
+  <div class="menu-section">
+    <h3>General</h3>
+    <ul>
+      <li class="option">
+        <a href="../../1.html" class="active">
+          <i class="ion-android-earth"></i> 
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-person-stalker"></i> <span>Lists & Tables</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../lists/users.html">Customers list</a></li>
+          <li><a href="../lists/datatables.html">Orders (Datatables)</a></li>
+          <li><a href="../lists/products.html">Products (Filters)</a></li>
+        </ul>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-stats-bars"></i> <span>Reports</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../reports/orders.html">Reports orders</a></li>
+          <li><a href="../reports/sales.html">Report sales</a></li>
+        </ul>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-pricetags"></i> <span>Forms</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../forms/new_customer.html">New Customer (validation)</a></li>
+          <li><a href="../forms/new_product.html">New Product (add-ons)</a></li>
+          <li><a href="../forms/wizard.html">Wizard</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-section">
+    <h3>Application</h3>
+    <ul>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-earth"></i> <span>App Pages</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../pages/inbox.html">Inbox Messages</a></li>
+          <li><a href="../pages/profile.html">User profile</a></li>
+          <li><a href="../pages/latest_activity.html">Latest activity</a></li>
+          <li><a href="../pages/projects.html">Projects</a></li>
+          <li><a href="../pages/steps.html">Steps to launch</a></li>
+          <li><a href="../pages/calendar.html">Calendar</a></li>
+        </ul>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-card"></i> <span>Pricing</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../pricing/plans.html">Pricing (Plans)</a></li>
+          <li><a href="../pricing/charts.html">Pricing charts</a></li>
+          <li><a href="../pricing/form.html">Billing form</a></li>
+          <li><a href="../pricing/invoice.html">Invoice</a></li>
+        </ul>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-flash"></i> <span>Features</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="../features/email_templates.html">Email templates</a></li>
+          <li><a href="../features/gallery.html">Gallery</a></li>
+          <li><a href="../features/ui.html" data-no-turbolink>UI Extras</a></li>
+          <li><a href="../features/api.html">API Documentation</a></li>
+          <li><a href="../features/signup.html">Sign up</a></li>
+          <li><a href="../features/signin.html">Sign in</a></li>
+          <li><a href="../features/status.html">App Status</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-section">
+    <h3>Admin</h3>
+    <ul>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-person"></i> <span>My account</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="billing.html">Billing</a></li>
+          <li><a href="notifications.html">Notifications</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </li>
+      <li class="option">
+        <a href="#" data-toggle="sidebar">
+          <i class="ion-usb"></i> <span>Level Navigation</span>
+          <i class="fa fa-chevron-down"></i>
+        </a>
+        <ul class="submenu">
+          <li>
+            <a href="invoice.html" data-toggle="sidebar">
+              Submenu
+              <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Last menu</a></li>
+              <li><a href="#">Last menu</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Menu link</a></li>
+          <li><a href="#">Extra link</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="bottom-menu hidden-sm">
+    <ul>
+      <li><a href="#"><i class="ion-help"></i></a></li>
+      <li>
+        <a href="#">
+          <i class="ion-archive"></i>
+          <span class="flag"></span>
+        </a>
+        <ul class="menu">
+          <li><a href="#">5 unread messages</a></li>
+          <li><a href="#">12 tasks completed</a></li>
+          <!-- <li><a href="#">3 features added</a></li> -->
+        </ul>
+      </li>
+      <li><a href="../features/signin.html"><i class="ion-log-out"></i></a></li>
+    </ul>
+  </div>
+</div>
+
+        <div id="content">
+          
+
+<div id="sidebar">
+	<div class="sidebar-toggler visible-xs">
+		<i class="ion-navicon"></i>
+	</div>
+	
+	<h3>My account</h3>
+	<ul class="menu">
+		<li>
+			<a href="settings.html">
+				<i class="ion-ios7-person-outline"></i>
+				Profile
+			</a>
+		</li>
+		<li>
+			<a href="billing.html" class="active">
+				<i class="ion-card"></i>
+				Billing
+			</a>
+		</li>
+		<li>
+			<a href="notifications.html">
+				<i class="ion-ios7-email-outline"></i>
+				Notifications
+			</a>
+		</li>
+		<li>
+			<a href="support.html">
+				<i class="ion-ios7-help-outline"></i>
+				Support
+			</a>
+		</li>
+	</ul>
+</div>
+
+<div id="panel" class="billing">
+	<h3>
+		Billing & Payments
+	</h3>
+
+	<div class="plan">
+		<div class="current-plan">
+			<div class="field">
+				<label>Plan:</label> Team Subscription ($29.00/month)
+				<a href="../pricing/plans.html" class="change-plan">
+					Change plan
+					<i class="ion-edit"></i>
+				</a>
+			</div>
+
+			<div class="field">
+				<label>Users invited:</label> 5 / 15
+			</div>
+			
+			<div class="field">
+				<label>Member since:</label> Mar 15, 2013
+			</div>
+
+			<div class="field status">
+				<label>Status:</label> <span class="value">Active</span>
+			</div>
+		</div>
+
+		<div class="current-cc">
+			<label>Current credit card:</label>
+			<img alt="Visa" src="../../assets/visa-5fc1888e5c31ba703807afdd864e94b9.png" />
+			<strong>Visa</strong> ending in <strong>0328.</strong>
+			<a href="#" class="manage-cc">
+				Manage credit card
+				<i class="ion-edit"></i>
+			</a>
+			<span class="next">(next payment on <strong>Mar 02, 2014</strong>).</span>
+		</div>
+
+		<div class="invoices">
+			<h3>Invoices</h3>
+
+			<table class="table">
+				<tr>
+					<td>
+						Date
+					</td>
+					<td>
+						Amount
+					</td>
+					<td>
+						Due
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<a href="../pricing/invoice.html">Nov 13, 2014 - Dec 13, 2014</a>
+					</td>
+					<td>
+						$29.00 USD
+					</td>
+					<td>
+						2014-11-13
+					</td>
+					<td>
+						<a href="#">download</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="../pricing/invoice.html">Oct 13, 2014 - Nov 13, 2014</a>
+					</td>
+					<td>
+						$29.00 USD
+					</td>
+					<td>
+						2014-10-13
+					</td>
+					<td>
+						<a href="#">download</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="../pricing/invoice.html">Sep 13, 2014 - Oct 13, 2014</a>
+					</td>
+					<td>
+						$29.00 USD
+					</td>
+					<td>
+						2014-09-13
+					</td>
+					<td>
+						<a href="#">download</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+        </div>  
+    </div>
+
+    <div class="skin-switcher">
+	<div class="toggler">
+		<span class="brankic-brush"></span>
+	</div>
+	<ul class="menu">
+		<li>
+			<a class="active" data-skin="sidebar-default" href="#">
+				<span class="color default"></span> Default
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+		<li>
+			<a data-skin="sidebar-clear" href="#">
+				<span class="color clear"></span> Clear
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+		<li>
+			<a data-skin="sidebar-black" href="#">
+				<span class="color black"></span> Black
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+		<li>
+			<a data-skin="sidebar-dark" href="#">
+				<span class="color dark"></span> Dark
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+		<li>
+			<a data-skin="sidebar-flat" href="#">
+				<span class="color flat"></span> Flat
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+		<li>
+			<a data-skin="sidebar-flat-dark" href="#">
+				<span class="color flat-dark"></span> Flat dark
+				<i class="fa fa-check"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+
+    
+</body>
+
+<!-- Mirrored from wolfadmin.herokuapp.com/1.1/account/billing by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2014 02:33:10 GMT -->
+</html>

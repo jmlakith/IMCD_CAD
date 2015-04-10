@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from wolfadmin.herokuapp.com/1.1/features/signup by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2014 02:36:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<title>Wolf - Bootstrap Admin Theme</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	
+  <link data-turbolinks-track="true" href="../../assets/application-b9abcf044a0bc3e705568d103eddd00e.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="../../assets/application-c19ca191fe14a22b6c3ee53ac5b340a6.js"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="OszadhPDbPaLmettDOd3kDnS+XRVU5SVqyjBoVc8Tr8=" name="csrf-token" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body id="signup">
+	<div class="bg clear">
+		<div class="signup-switcher">
+			<a href="#" class="active" data-class="clear">
+				<i class="fa fa-check"></i>
+				Clear
+			</a>
+			<a href="#" data-class="">
+				<i class="fa fa-check"></i>
+				Dark
+			</a>
+		</div>
+
+		<a href="../../1.html" class="logo">
+			<i class="brankic-pen"></i>
+		</a>
+
+		<h3>Create Your Account Now</h3>
+
+		<div class="content">
+			<form>
+				<div class="fields">
+					<strong>Your information</strong>
+					<input class="form-control" type="text" placeholder="Your full name" />
+					<input class="form-control" type="text" placeholder="Company name" />
+					<input class="form-control" type="text" placeholder="Your age" />
+				</div>
+				<div class="fields">
+					<strong>Your access data</strong>
+					<input class="form-control" type="text" placeholder="Your email" />
+					<input class="form-control" type="password" placeholder="Password" />
+					<input class="form-control" type="password" placeholder="Confirm password" />
+				</div>
+				<div class="fields">
+					<strong>
+						Payment information
+						<img alt="Credit card types" class="pull-right" src="../../assets/credit_card_types-4956c540c4db81e890e0fe4b5dfa61d1.gif" />
+					</strong>
+					<input class="form-control" type="text" placeholder="Credit Card Number" />
+					<input class="form-control" type="text" placeholder="MM / YY" />
+					<input class="form-control" type="text" placeholder="CVV" />
+				</div>
+				<div class="info">
+					Your 30-day trial will start now. After your trial ends, your credit card will be charged for the monthly <strong>Business plan for $59.00 USD on April 12, 2014.</strong>
+				</div>
+				<div class="signup">
+					<a href="../../1.html" class="btn btn-success btn-lg">Create my account</a>
+				</div>
+			</form>
+		</div>
+
+		<div class="bottom-wrapper">
+			<div class="message">
+				<span>Already have an account?</span>
+				<a href="signin.html">Sign in here</a>.
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		$(function () {
+			var $switcher = $(".signup-switcher a");
+			$switcher.click(function (e) {
+				e.preventDefault();
+				$switcher.removeClass("active");
+				$(this).addClass("active");
+				$(".bg").attr("class", "bg " + $(this).data("class"));
+			});
+		});
+	</script>
+
+</body>
+
+<!-- Mirrored from wolfadmin.herokuapp.com/1.1/features/signup by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2014 02:36:40 GMT -->
+</html>
